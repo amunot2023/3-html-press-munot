@@ -1,0 +1,193 @@
+body, html, section {
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+h1 
+
+/* slideshow */
+.mySlides {display:none;}
+
+/* Full Screen Images */
+.fs-img-1 { 
+  /* The image used */
+  background-image: url("/img/dbfaa26f0bc7356db4218d793aba45af.gif");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Full Screen Images */
+.fs-img-2 { 
+  /* The image used */
+  background-image: url("/img/birds.jpg"); 
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Full Screen Images */
+.fs-img-3 { 
+  /* The image used */
+  background-image: url("/img/Sun.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Full Screen Images */
+.fs-img-4 { 
+  /* The image used */
+  background-image: url("/img/spring-wallpaper-1920x1080.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Full Screen Images */
+.fs-img-5 { 
+  /* The image used */
+  background-image: url("/img/rain.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Full Screen Images */
+.fs-img-6 { 
+  /* The image used */
+  background-image: url("/img/sunset.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.light-pink {
+    background-color: #FF00FF;
+}
+
+/* Full Screen Video */
+* {
+  box-sizing: border-box;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background-image: url("/img/slideshow-endpic.jpg");
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+.commentArea {
+font: 45px;
+padding:0 10px;
+margin-top: 5px;    
+}
+
+.bubbledLeft,.bubbledRight {
+    margin-top: 500px;
+    padding: 1px 7px;
+    max-width: 50%;
+    clear: both;
+    position: relative;
+}
+
+.bubbledLeft{
+    float: left;
+    margin-right: auto;
+    -webkit-border-radius: 8px 8px 8px 0px;
+    -moz-border-radius: 8px 8px 8px 0px;
+    -o-border-radius: 8px 8px 8px 0px;
+    -ms-border-radius: 8px 8px 8px 0px;
+    border-radius: 8px 8px 8px 0px;
+    background-color: #b57edc;
+    color: #ffffff;
+}
+
+.bubbledLeft:before {
+    border-bottom: 10px solid #b57edc;
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: -8px;
+    content: "";
+}
+
+.bubbledRight{
+    float: right;
+    margin-left: auto;
+    text-align: right;
+    -webkit-border-radius: 8px 8px 0px 8px;
+    -moz-border-radius: 8px 8px 0px 8px;
+    -o-border-radius: 8px 8px 0px 8px;
+    -ms-border-radius: 8px 8px 0px 8px;
+    border-radius: 8px 8px 0px 8px;
+    background-color: #7DCFB6;
+    color: white;
+}
+
+.bubbledRight:before {
+    border-bottom: 9px solid #7DCFB6;
+    border-right: 9px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    right: -8px;
+    content: "";
+}
